@@ -30,9 +30,13 @@
     "valid",
     "typed-array",
     "typed-array like",
+    "like",
     "is",
     "istypedarraylike",
-    "length"
+    "length",
+    "duck type",
+    "duck",
+    "type"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/typed-array-like/issues"

@@ -65,6 +65,12 @@ console.log( isTypedArrayLike( {} ) );
 
 console.log( isTypedArrayLike( null ) );
 // returns false
+
+console.log( isTypedArrayLike( 'beep' ) );
+// returns false
+
+console.log( isTypedArrayLike( function foo( a, b ) {} ) );
+// returns false
 ```
 
 To run the example code from the top-level application directory,

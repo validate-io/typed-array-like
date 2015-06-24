@@ -2,7 +2,7 @@
 
 // MODULES //
 
-var typedArrayLike = require( './../lib' );
+var isTypedArrayLike = require( './../lib' );
 
 
 // VARIABLES //
@@ -40,7 +40,7 @@ for ( i = 0; i < len; i++ ) {
 // BENCHMARK
 
 len = 1e6;
-res = new Array( 1 );
+res = new Array( 2 );
 
 // Control:
 start = process.hrtime();
@@ -54,7 +54,7 @@ res[ 0 ] = stop[ 0 ] + stop[ 1 ]*1e-9;
 // Test:
 start = process.hrtime();
 for ( i = 0; i < len; i++ ) {
-	b = typedArrayLike( arr );
+	b = isTypedArrayLike( arr );
 }
 stop = process.hrtime( start );
 
