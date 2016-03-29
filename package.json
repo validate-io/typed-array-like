@@ -1,6 +1,6 @@
 {
   "name": "validate.io-typed-array-like",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validates if a value is typed-array-like.",
   "author": {
     "name": "Athan Reines",
